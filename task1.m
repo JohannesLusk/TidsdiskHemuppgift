@@ -6,7 +6,7 @@ x = y;
 %soundsc(x,Fs);
 
 b0 = 0.5;
-b1 = 0.5;
+b1 = -0.5;
 
 N = length(x); % Length of input signal
 y = zeros(size(x)); % Allocate space for outut
