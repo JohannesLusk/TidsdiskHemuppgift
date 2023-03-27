@@ -1,8 +1,6 @@
-# TidsdiskHemuppgift1
+# Uppgift 1
+Det låter som att de högfrekventa signalerna är bortfiltrerade
 
-## uppgift 1
-svar: signalen förändras inte, eller det finns ingen märkbar skillnad
-på default signalen och den modifierarde signalen.
+# Uppgift 2
+Här verkar de lågfrekventa signalerna ha tagits bort iställets
 
-## uppgift 2
-signalen låter som om de lägre frekvenser har klippts bort
