@@ -18,3 +18,11 @@ Utsignalen är en summa av utsignalerna i fråga 3 och 4. Det stämmer överens
 med att systemet är ett LTI system.
 ![NAME](uppg5plot.png)
 
+# uppgift 6
+amplituden skiljer sig del. anledningen är att de är skilda är att utsignalen 
+är ett medelvärde av signalen. y2 är mindre ty det är större skillander mellan funktionsvärdena,
+dvs vissa angränsande värden är negativa. Därför blir dens amplitud mycket mindre när 
+man tar medelvärdet.
+
+
+
