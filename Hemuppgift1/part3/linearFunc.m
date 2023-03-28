@@ -1,4 +1,4 @@
-
+function y = linearFunc
 x = zeros(1,20); x(1) = 1; v = zeros(1,20);
 y = zeros(1,20);
 
@@ -16,15 +16,4 @@ y(1) = b0*v(1); % First sample, assuming x(0) = 0
 for k=2:K % Remaining samples
     y(k) = b0*v(k) + b1*v(k-1);
 end
-
-
-l = linspace(0,20,20);
-figure(1);
-clf; hold on;
-stem(l,x,'ko');
-stem(l,v,'ro');
-stem(l,y,'go');
-axis([-1 20 -1.5 1.5]);
-box on;
-xlabel('n'); ylabel('y[n]');
-legend({'insignal', 'v[n]','utsignal'})
+end
