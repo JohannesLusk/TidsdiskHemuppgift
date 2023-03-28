@@ -1,7 +1,6 @@
 
 
-x = zeros(1,20); x(1) = 1; u = zeros(1,20);
-y = zeros(1,20);
+x = zeros(1,20); x(1) = 1; u = zeros(1,20); y = zeros(1,20);
 b0 = 0.5; b1 = 0.5;
 K = length(x);
 u(1) = b0*x(1); % First sample, assuming x(0) = 0

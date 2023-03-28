@@ -30,8 +30,8 @@ end
 n = 0:1:19;
 figure(1);
 clf; hold on;
-stem(n,x1,'ko');
-stem(n,x2,'ro');
+stem(n,y1,'ko');
+stem(n,y2,'ro');
 axis([-1 20 -1.5 1.5]);
 box on;
 xlabel('n'); ylabel('y[n]');
