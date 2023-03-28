@@ -12,5 +12,14 @@ for n=2:N
 end
 
 
-sound(y,Fs);
+%sound(y,Fs);
+n = linspace(0,N,N);
+figure(1);
+clf; hold on;
+stem(n,x,'ko');
+stem(n,y,'ro');
+axis([-1 20 -1.5 1.5]);
+box on;
+xlabel('n'); ylabel('x[n]');
+legend({'insignal', 'utsignal'})
 

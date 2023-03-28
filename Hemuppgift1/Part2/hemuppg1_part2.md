@@ -28,5 +28,6 @@ Det låter som att de lågfrekventa signalerna filtrerats bort
 
 # Uppgift 11
 Det blir ett högfrekvent "tjut", systemet är inte BIBO-stabilt när a>1
-och de högfrekventa signalerna blir oändligt stora
+och de högfrekventa signalerna blir oändligt stora.
+Alternativt så förstärks alla signaler, bara att de högfrekventa hörs mest
 
