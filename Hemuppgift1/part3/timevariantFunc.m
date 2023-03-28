@@ -11,9 +11,9 @@ end
 
 a1 = -0.8;
 N = length(u);
-y(1) = x(1);% First sample, assuming x(0) = 0
+y(1) = u(1);% First sample, assuming x(0) = 0
 for n=2:N % remaining samples
-    y(n) = x(n) - a1*y(n-1);
+    y(n) = u(n) - a1*y(n-1);
 end
 
 
