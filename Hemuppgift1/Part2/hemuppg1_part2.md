@@ -16,4 +16,17 @@ end
 ![NAMN](uppg7plot.png)
 y[n] minskar med 20% varje steg, vilket är rimligt utav definitionen
 
-#
+# Uppgift 8
+![NAMN](uppg8plot.png)
+Resultatet hade kunnat förväntas, amplituderna adderas helt enkelt
+
+# Uppgift 9
+Det låter som att de högfrekventa signalerna filtrerats bort
+
+# Uppgift 10
+Det låter som att de lågfrekventa signalerna filtrerats bort
+
+# Uppgift 11
+Det blir ett högfrekvent "tjut", systemet är inte BIBO-stabilt när a>1
+och de högfrekventa signalerna blir oändligt stora
+
