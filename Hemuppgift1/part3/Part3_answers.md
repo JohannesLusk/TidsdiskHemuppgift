@@ -1,5 +1,5 @@
 # uppgift 12
-![NAME](uppg12plot.png)
+![NAME](uppg12Plot.png)
 ## kod:
 ```matlab
 x = zeros(1,20); x(1) = 1; u = zeros(1,20); y = zeros(1,20);
