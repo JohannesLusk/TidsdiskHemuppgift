@@ -19,6 +19,9 @@ med att systemet är ett LTI system.
 ![NAME](uppg5plot.png)
 
 # uppgift 6
+Amplituden skiljer sig en del. Anledningen är att x-värden adderas med tidigare x-värden. Systemet med hög frekvens har större varians på x-värdena. Chansen är större att ett negativt värde adderas med ett positivt. Då får resultatet låg amplitud. På så sätt kan systemet ses som ett lågpassfilter.
+
+
 amplituden skiljer sig del. anledningen är att de är skilda är att utsignalen 
 är ett medelvärde av signalen. y2 är mindre ty det är större skillander mellan funktionsvärdena,
 dvs vissa angränsande värden är negativa. Därför blir dens amplitud mycket mindre när 

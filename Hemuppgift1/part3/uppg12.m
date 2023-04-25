@@ -25,5 +25,5 @@ stem(l,u,'ko');
 stem(l,y,'ro');
 axis([-1 20 -1.5 1.5]);
 box on;
-xlabel('n'); ylabel('y[n]');
-legend({'insignal', 'utsignal'})
+xlabel('n'); ylabel('signal');
+legend({'u[n]', 'y[n]'})

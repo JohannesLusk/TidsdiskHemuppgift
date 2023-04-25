@@ -12,8 +12,8 @@ y2 = filter([b0 b1 b2],[1 a1 a2],x2);
 
 figure(1);
 clf; hold on;
-stem(n,x1,'ko');
-stem(n,y1,'ro');
+stem(n,y1,'ko');
+stem(n,y2,'ro');
 axis([-1 20 -1.5 1.5]);
 box on;
 xlabel('n'); ylabel('y[n]');

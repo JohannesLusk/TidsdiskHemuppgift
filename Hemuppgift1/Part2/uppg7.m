@@ -18,6 +18,6 @@ stem(n,x,'ko');
 stem(n,y,'ro');
 axis([-1 20 -1.5 1.5]);
 box on;
-xlabel('n'); ylabel('x[n]');
-legend({'insignal', 'utsignal'})
+xlabel('n'); ylabel('signal');
+legend({'x[n]', 'y[n]'})
 
